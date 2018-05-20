@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a software engineer currently working at [Cleartrip Bangalore](https://www.cleartrip.com/). Besides programming I love music and play guitar/harmonica. I even offer [guitar lessons](http://urbanclap.com/pro/sudip-bhandari) in select few locations in Bangalore. I have a small [youtube channel](https://www.youtube.com/channel/UCNqNfBGSHyL42nRC_ZBodNA)
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sudip.post@gmail.com](mailto:sudip.post@gmail.com)
