@@ -3,13 +3,14 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.content | strip_html | truncatewords: 35}}
+        <a href="{{ post.url }}">read more</a>
       </div>
 
      
