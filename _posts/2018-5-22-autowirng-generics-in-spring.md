@@ -16,7 +16,7 @@ interface GenericUpdater{
 There are 'n' number of implementations.
 ```java
 @Component("inventory")
-public InventoryUpdater{
+public InventoryUpdater implements GenericUpdater{
     @Overrides
     public boolean act(){
         //do some stuff
@@ -36,3 +36,8 @@ Map<String,GenericUpdater> updaterMap;
 
 Spring now scans for all the implementations of `GenericUpdater` and injects them into this map keyed with the name given in `@Component($name)`.
 
+
+Stack Overflow answer demo:
+
+
+[see this](https://stackoverflow.com/a/50481837/4589003)
