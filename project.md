@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Google Maps Reverse Geocoding (Django App)
+title: Some of my projects
 permalink: /project/
 ---
 
+**Google-Maps-Reverse-GeoCoding**
 ![project in action, gif](https://cdn-images-1.medium.com/max/720/1*1odd8NDXrs_YIHt0pGmacw.gif)
 
 [Github link](https://github.com/sudipbhandari126/google_maps)
@@ -17,9 +18,11 @@ I am serving this app over Django, which I have recently started using and it’
 
 
 
-[My Resume](https://sudipbhandari126.github.io/resources/resume.pdf)
+**ROI Helper (A plugin to [Icy](http://icy.bioimageanalysis.org), a bio-image-analysis tool)**
+
+ROIhelper is a plugin to help naming ROI. It adds all the names to a file and therefore whenever user wants to name another ROI he can see whether that name is already present or not. This ensures ease of naming while also avoiding spelling mistakes.
+
+[ROI helper github](https://github.com/sudipbhandari126/ROIHelper)
 
 
-### Contact me
 
-[sudip.post@gmail.com](mailto:sudip.post@gmail.com)
