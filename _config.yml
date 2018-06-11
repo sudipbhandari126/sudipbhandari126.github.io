@@ -87,4 +87,8 @@ exclude:
 
 theme: jekyll-theme-dinky
 
+# to enable emojis
+plugins:
+  - jemoji
+
 
