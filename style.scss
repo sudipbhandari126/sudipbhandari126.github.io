@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+	background: $lightGray;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -157,8 +157,8 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-
-  @include mobile {
+ 
+   @include mobile {
     text-align: center;
   }
 }

@@ -4,7 +4,17 @@ title: Some of my projects
 permalink: /project/
 ---
 
+[**Smart Attendance**](https://play.google.com/store/apps/details?id=com.attantance.activity)
+
+![smart attendance](https://sudipbhandari126.github.io/resources/smart-attendance.png "smart attendance")
+
+I was part of a product called smart attendance system while I worked at [Aindra](http://www.aindra.in) in Bangalore. It's a computer vision based attendance system. I worked mainly on the mobile app which uses google vision api to detect faces and capture them which are eventually processed by the ML backend. Working on this project is what pushed my curiosity towards machine learning and the possibilities that it brings.
+
+[PlayStore Link](https://play.google.com/store/apps/details?id=com.attantance.activity)
+
+
 **Google-Maps-Reverse-GeoCoding**
+
 ![project in action, gif](https://cdn-images-1.medium.com/max/720/1*1odd8NDXrs_YIHt0pGmacw.gif)
 
 [Github link](https://github.com/sudipbhandari126/google_maps)
