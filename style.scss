@@ -292,9 +292,10 @@ footer {
 .highlight { width: 100%; }
 
 
-//fixed sticky header
-div.wrapper-masthead {
+//fixed sticky header with media query otherwise can cause problem in smaller screens
+@media (min-height: 600px) {div.wrapper-masthead {
   background: inherit;
   position: sticky;
   top: 0;
+}
 }
