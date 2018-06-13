@@ -290,3 +290,11 @@ footer {
 
 
 .highlight { width: 100%; }
+
+
+//fixed sticky header
+div.wrapper-masthead {
+  background: inherit;
+  position: sticky;
+  top: 0;
+}
