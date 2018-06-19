@@ -1,0 +1,3 @@
+<script>
+  fbq('track', 'ViewContent');
+</script>
