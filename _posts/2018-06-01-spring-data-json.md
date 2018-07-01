@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Working with Spring Data and Json
+tags: [spring, java, json, spring-data]
 ---
 
 **1. Overview**

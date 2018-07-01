@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SDKMAN, Java9, Jshell, REPL
+tags: [java, skdman, java9, jshell, REPL, scripting]
 ---
 
 **Working with multiple versions**

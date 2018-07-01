@@ -1,6 +1,7 @@
 ---
 layout: post
 title: GitHub & Microsoft Saga
+tags: [Github, Microsoft, Acquisition, Startup]
 ---
 
 Github is the most popular hosting site for millions of git repositories around the world, most of them being open source.
