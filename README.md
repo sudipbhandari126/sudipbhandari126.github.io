@@ -6,8 +6,17 @@ I have added tags to all the blog posts. This particular plugin isn't supported 
 I have added a small python script under `pre-commit` git-hook in order to automate this so that all of my posts and their tags are automatically added to my git staging area and subsequently pushed to github.
 
 
-In order to use this git-hook, create a file `.git/hooks/pre-commit` and populate it with the following content and make it executable using `sudo chmod +x .git/hooks/pre-commit`. (Used python instead of shell or perl for simplicity)
+In order to use this git-hook, create a file `.git/hooks/pre-commit` and populate it with the following content and make it executable using `sudo chmod +x .git/hooks/pre-commit`. 
 
+Using Shell:
+
+```sh
+#!/bin/bash
+rsync -arv  _site/tag/* ./tag/
+git add tag/
+```
+
+(Python)
 ```python
 #!/usr/bin/python
 import shutil
