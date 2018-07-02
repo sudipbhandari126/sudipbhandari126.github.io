@@ -1,9 +1,22 @@
 > March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
 
 # Customizations
-Added git tags.. but github won't support so build and push all the generated files.
+I have added tags to all the blog posts. This particular plugin isn't supported by github so running it just like that doesn't create 'tags'. A workaround is to create tags locally (`jekyll serve` will do it) and then pushing those contents to the github repo.
 
-Using githook to automate that.
+I have added a small python script under `pre-commit` git-hook in order to automate this so that all of my posts and their tags are automatically added to my git staging area and subsequently pushed to github.
+
+
+In order to use this git-hook, create a file `.git/hooks/pre-commit` and populate it with the following content and make it executable using `sudo chmod +x .git/hooks/pre-commit`. (Used python instead of shell or perl for simplicity)
+
+```python
+#!/usr/bin/python
+import shutil
+import git
+shutil.move('_site/tag','.')
+repo = git.Repo('.')
+repo.git.add('tag/')
+```
+
 
 gitpython (pip install)
 shutil to move files/folders
