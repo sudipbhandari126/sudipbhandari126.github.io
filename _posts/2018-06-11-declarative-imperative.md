@@ -4,7 +4,7 @@ layout: post
 tags: [programming, declarative, imperative, programming-style]
 ---
 
-Declarative programming focuses on 'how' and Imperative programming focuses on 'what'.
+Imperative programming focuses on 'how' and Declarative programming focuses on 'what'.
 
 **Examples**
 
