@@ -25,6 +25,9 @@ It’s fun as a developer when you get to integrate already existing powerful AP
 
 I am serving this app over Django, which I have recently started using and it’s super awesome when you want to prototype and build things faster without worrying about minor details, convention over configuration FTW.
 
+[**Unix Workbench Assignment(John Hopkins University)**](https://sudipbhandari126.github.io/guessingnumber/)
+This coursera course focused on unix, git, make and other unix fundamentals. This project just demonstrates a simple program whose README is created using `makefile` and github project page is published.
+
 
 
 
