@@ -13,7 +13,7 @@ I was part of a product called smart attendance system while I worked at [Aindra
 [PlayStore Link](https://play.google.com/store/apps/details?id=com.attantance.activity)
 
 
-**Google-Maps-Reverse-GeoCoding**
+[**Google-Maps-Reverse-GeoCoding**](https://sudipbhandari126.github.io/google_maps/)
 
 ![project in action, gif](https://cdn-images-1.medium.com/max/720/1*1odd8NDXrs_YIHt0pGmacw.gif)
 
@@ -27,6 +27,15 @@ I am serving this app over Django, which I have recently started using and it’
 
 [**Unix Workbench Assignment(John Hopkins University)**](https://sudipbhandari126.github.io/guessingnumber/)
 This coursera course focused on unix, git, make and other unix fundamentals. This project just demonstrates a simple program whose README is created using `makefile` and github project page is published.
+
+
+[**graphql demo in java**](https://sudipbhandari126.github.io/graphql-java/)
+
+
+[**My Linux Setup**](https://sudipbhandari126.github.io/MyLinuxSetUp/)
+
+
+[**Intellij Settings and productivity**](https://sudipbhandari126.github.io/IntelliJSettings/)
 
 
 
