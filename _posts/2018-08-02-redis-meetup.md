@@ -53,15 +53,15 @@ One of the biggest advantages redis brings to traditional memchaed is support of
 ## Bonus
 As part of the meetup we were divided in a group and were assigned a problem statement each in order to come up with a solution. (most problem sets required usage of message broker (kafka,redis), sql db, nosql db). Here are the snapshots of those problem sets for interested reader :)
 
-![redis_ps1](https://sudipbhandari126.github.io/resources/redis_ps1.png "redis_ps1")  
+![redis_ps1](https://sudipbhandari126.github.io/resources/redis_ps1.jpeg "redis_ps1")  
 
 
 
-![redis_ps2](https://sudipbhandari126.github.io/resources/redis_ps2.png "redis_ps2")
+![redis_ps2](https://sudipbhandari126.github.io/resources/redis_ps2.jpeg "redis_ps2")
 
 
 
-![redis_ps3](https://sudipbhandari126.github.io/resources/redis_ps3.png "redis_ps3")
+![redis_ps3](https://sudipbhandari126.github.io/resources/redis_ps3.jpeg "redis_ps3")
 
 
 
