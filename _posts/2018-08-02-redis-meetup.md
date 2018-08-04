@@ -53,6 +53,10 @@ One of the biggest advantages redis brings to traditional memchaed is support of
 ## Bonus
 As part of the meetup we were divided in a group and were assigned a problem statement each in order to come up with a solution. (most problem sets required usage of message broker (kafka,redis), sql db, nosql db). Here are the snapshots of those problem sets for interested reader :)
 
+Link:
+
+[Redis Design Workshop Problem Sets](https://rdbtools.com/redis-design-workshop/)
+
 ![redis_ps1](https://sudipbhandari126.github.io/resources/redis_ps1.jpeg "redis_ps1")  
 
 
