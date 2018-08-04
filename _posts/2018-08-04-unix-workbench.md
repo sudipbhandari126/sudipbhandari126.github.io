@@ -6,7 +6,7 @@ tags: [unix, linux, coursera, learning]
 
 I recently completed UNIX workbench course by John Hopkins University in coursera. So, I thought I would write something about UNIX, GNU/Linux.
 
-[![unix_workshop](https://sudipbhandari126.github.io/resources/unix_workshop)](https://www.coursera.org/account/accomplishments/certificate/2D283Q3C7YNV)
+[![unix_workshop](https://sudipbhandari126.github.io/resources/unix_workshop.png)](https://www.coursera.org/account/accomplishments/certificate/2D283Q3C7YNV)
 
 ## Love for UNIX
 
