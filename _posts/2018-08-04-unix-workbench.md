@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I completed Unix Workbench Course by John Hopkins University in Coursea
+title: I completed Unix Workbench Course by John Hopkins University in Coursera
 tags: [unix, linux, coursera, learning]
 ---
 
