@@ -7,6 +7,8 @@ tags: [software, programming, technical-sophistication, learning]
 
 ## Building Technical Sophistication As A Developer
 
+![thinking](https://sudipbhandari126.github.io/resources/thinking.png "thinking")
+
 Idea and concept wise it's something we all developers are quite aware of. I first came through this exact term, "technical sophistication" in Michael Hartl's article in [Learn Enough Society](https://www.learnenough.com/). The basic idea is as developer one requires a certain set of skills which can elevate their overall vision and can see things in a broad sight. One need not be technically proficient at everything but having good understanding of fundamentals enables us to debug and reach the solution faster. Just by digging through error logs, searching efficiently on google/stack-overflow or open source community (github, slack channels, etc) a developer with enough "
 technical sophisticaion" can solve his/her way towards problem in lesser time with higher efficiency.
 
