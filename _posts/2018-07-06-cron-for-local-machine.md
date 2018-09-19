@@ -34,7 +34,7 @@ fi
 Instead of using `service`, I had to use /usr/sbin/service which is where service bin in actually located, (`whereis service`). [I had to find out the hard way that using fully executable path is preferred while writing jobs.](https://unix.stackexchange.com/questions/469927/unable-to-restart-network-manager-from-a-script-when-run-as-a-cron-job?noredirect=1#comment857070_469927) 
 
 #### Adding crontab entry:
-Since starting network-manager requires root privileges, I added it in root's crontab entry using:
+Since starting network-manager requires root privileges, I added it in root's crontab entry using: ```sudo crontab -e```
 
 ```bash
 * * * * * sh /usr/local/bin/check_network.sh >> /var/log/myjob.log
