@@ -27,11 +27,17 @@ if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
 else
    echo "$(date '+%d/%m/%Y %H:%M:%S') ::restarting network-manager"
    /usr/sbin/service network-manager restart
+   sleep 5
+   ssid=$(nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2)
+   if [ "$ssid" =  "yes:company_wifi_ssid" ]; then
+   echo "connected to company wifi.. changing namserver to 10.10.4.17"
+   echo "nameserver 10.10.4.17">>/etc/resolv.conf
 fi 
 ```
 
 `set -x` is there so that I can see all the executables output. I am echoing timestamp and some information to be logged in crontab entry for inspection.
-Instead of using `service`, I had to use /usr/sbin/service which is where service bin in actually located, (`whereis service`). [I had to find out the hard way that using fully executable path is preferred while writing jobs.](https://unix.stackexchange.com/questions/469927/unable-to-restart-network-manager-from-a-script-when-run-as-a-cron-job?noredirect=1#comment857070_469927) 
+Instead of using `service`, I had to use /usr/sbin/service which is where service bin in actually located, (`whereis service`). [I had to find out the hard way that using fully executable path is preferred while writing jobs.](https://unix.stackexchange.com/questions/469927/unable-to-restart-network-manager-from-a-script-when-run-as-a-cron-job?noredirect=1#comment857070_469927). Since my workplace uses it's own DNS resolver I am also changing nameserver (10.10.4.17 for example). To accomplish this I am comparing ssid of the connected wifi (after waiting for 5 seconds which turns to be just about right)
+
 
 #### Adding crontab entry:
 Since starting network-manager requires root privileges, I added it in root's crontab entry using: ```sudo crontab -e```
