@@ -56,6 +56,7 @@ A small section of this log file as run in my system looks something like:
 19/09/2018 22:25:01 ::network is up
 19/09/2018 22:26:01 ::network is up
 19/09/2018 22:27:01 ::restarting network-manager
+connected to cleartrip wifi.. changing namserver to 10.10.4.17
 19/09/2018 22:28:01 ::network is up
 19/09/2018 22:29:01 ::network is up
 19/09/2018 22:30:01 ::network is up
