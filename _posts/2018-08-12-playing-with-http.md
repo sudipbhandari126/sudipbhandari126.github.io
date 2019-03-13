@@ -2,7 +2,7 @@
 title: Some notes on HTTP
 tags: post
 tags: [http,web,internet,netcat,networking,engineering]
-----
+---
 
 Learning from the udacity course on client server communication
 
