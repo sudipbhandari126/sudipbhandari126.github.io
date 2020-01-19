@@ -1,14 +1,11 @@
 ---
 layout: post
-title: How git stores changes 
-tags: [git,linux,zlib]
+title: On Code Readability 
+tags: [code, coding-practice]
 ---
 
-Git stores snapshots of the directory content at the moment. (Contrast older VCS systems which just capture the changelog) If files haven't changed it just points to the previous version.
-
-
-
-We can check the content of the commit blob. It's stored in .git/objects. It's stored as a compressed zlib file.
+Almost everyone starts off coding in a very imperative fashion. You figure out the rules, syntax of the language and you figure out the logical solution to the problem and start off coding. As you start doing so
+you discover some idiosyncracies of the language and you start focusing on making the code more and more 'concise'. If unchecked this can lead to obfuscation where you just increase the cognitive load of the program. You write a very smart-ass and clever piece of code which can take hours to decipher. The code is concise and does what you want but think in terms of the maintainer or even you yourself, fiew years/months down the line. May be you switched to another programming language and are probably thinking 'who the fuck wrote that?' until you 'git blame' it and find that it's you after all.
 
 ```sh
 ~/projects/my-project/.git/objects/1a(my-branch) » pigz -d < 58989906551da9cd7f2395c640e0b90667aa27
