@@ -11,11 +11,11 @@ you discover some idiosyncracies of the language and you start focusing on makin
 
 After a series of discussions that ensued with this tweet I had the following insights:
 
-1. Every programmer aims to writes concise and unambiguous code. (fair enough)
+- Every programmer aims to writes concise and unambiguous code. (fair enough)
 
-2. To do so you have to be familiar with the nitty gritty details of the language you are writing in. (You can't expect anyone to write code that is 'readable' to a code-illiterate person) (fair enough)
+- To do so you have to be familiar with the nitty gritty details of the language you are writing in. (You can't expect anyone to write code that is 'readable' to a code-illiterate person) (fair enough)
 
-3. You start over-emphasizing on 2 and start becoming more esoteric, using the hacks of the language to do some operation. Following is a lame js example:
+- You start over-emphasizing on 2 and start becoming more esoteric, using the hacks of the language to do some operation. Following is a lame js example:
 
 ```javascript
 Array [ "ram", "sita" ]
@@ -28,4 +28,13 @@ b[Number(4<5)]
 
 This is more common in dynamic languages like python, ruby, javascript. The lingo, way of doing things around this language is so strong and can easily be turned wild with obfuscation. You can write a clever ruby line that does some awesome trick but imagine yourself visiting that code a month later or someone else maintaining it. It's a nightmare
 
-4. Readable code is not short code. Readable code is not extra verbose code either. Being programmers we should be fairly literate in this regard and we shouldn't load our cognition with unnecessary details. Likewise we shouldn't load it with esoteric expressions either
+
+
+- Readable code is not short code. Readable code is not extra verbose code either. Being programmers we should be fairly literate in this regard and we shouldn't load our cognition with unnecessary details. Likewise we shouldn't load it with esoteric expressions either
+
+
+
+
+
+
+
