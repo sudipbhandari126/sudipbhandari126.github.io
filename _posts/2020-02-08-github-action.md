@@ -7,4 +7,4 @@ tags: [github, cicd, git, hooks]
 
 ***Sample github action for gradle build***
 
-[github-action](https://sudipbhandari126.github.io/resources/github-action.gif "github-action")
+![github-action](https://sudipbhandari126.github.io/resources/github-action.gif "github-action")
