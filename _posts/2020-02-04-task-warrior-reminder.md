@@ -63,7 +63,7 @@ package used for notifying: ```terminal-notifier```
 Script
 
 ```bash
-terminal-notifier -title "time to work" -message "$(task list  | awk 'FNR==4 {$1=$2=""; print $0}')"
+/usr/local/bin/terminal-notifier -title "time to work" -message "$(/usr/local/bin/task list  | awk 'FNR==4 {$1=$2=""; print $0}')"
 ```
 
 
