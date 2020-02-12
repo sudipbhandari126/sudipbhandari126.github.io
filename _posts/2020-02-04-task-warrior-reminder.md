@@ -56,3 +56,14 @@ file /usr/local/bin/taskstatus                        sudipbhandari@sudipbhandar
 ```
 
 
+***For macos***
+
+package used for notifying: ```terminal-notifier```
+
+Script
+
+```bash
+terminal-notifier -title "time to work" -message "$(task list  | awk 'FNR==4 {$1=$2=""; print $0}')"
+```
+
+
