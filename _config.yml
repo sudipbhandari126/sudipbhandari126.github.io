@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Sudip Bhandari
+name: ~/.sudiprc
 
 # Short bio or description (displayed in the header)
 description: Software Developer, Music enthusiast
@@ -90,5 +90,13 @@ theme: jekyll-theme-dinky
 # to enable emojis
 plugins:
   - jemoji
+
+collections:
+  philosophies:
+    output: true
+    permalink: /:collection/:path/
+  
+
+
 
 
