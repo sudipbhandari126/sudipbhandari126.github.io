@@ -17,9 +17,9 @@ What we see today is the result of millions of years of trials and errors. It's 
 
 Nature is not intelligent or thought out. 
 
-It just evolves towards what benifits in the short term. In the bigger picture it might turn out to be an utterly stupid design:
+It just evolves towards what benefits in the short term. In the bigger picture it might turn out to be an utterly stupid design:
 
-- think about why we have same entry for oesophagus and lungs (how many people die of choking every year?) (may be this feature was so much benificial at one time, not any more)
+- think about why we have same entry for oesophagus and lungs (how many people die of choking every year?) (may be this feature was so much beneficial at one time, not any more)
 
 
 Nature is full of awe. But we know it's not a thought out, laid out design.
