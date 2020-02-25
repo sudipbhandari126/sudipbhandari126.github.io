@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Who is good problem solving?
+title: What is good problem solving?
 tags: [problem-soving, programming, software-engineering]
 ---
 
