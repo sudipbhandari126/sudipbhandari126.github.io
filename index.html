@@ -9,3 +9,27 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCirQbFrJiUqi-a-9UAKt6GbtbCtV3ayFg",
+    authDomain: "sudip-post.firebaseapp.com",
+    databaseURL: "https://sudip-post.firebaseio.com",
+    projectId: "sudip-post",
+    storageBucket: "sudip-post.appspot.com",
+    messagingSenderId: "712872174323",
+    appId: "1:712872174323:web:4b09df941e50519f118d86",
+    measurementId: "G-Q5J7N0TTB2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
