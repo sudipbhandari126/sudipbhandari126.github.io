@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parallelism Vs Concurrency
+title: Parallelism, Concurrency And Golang
 tags: [parallelism, concurrency, threads, golang, programming]
 ---
 
