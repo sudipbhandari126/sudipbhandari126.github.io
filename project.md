@@ -12,6 +12,7 @@ I was part of a product called smart attendance system while I worked at [Aindra
 
 [PlayStore Link](https://play.google.com/store/apps/details?id=com.attantance.activity)
 
+***
 
 [**Google-Maps-Reverse-GeoCoding**](https://sudipbhandari126.github.io/google_maps/)
 
@@ -25,20 +26,31 @@ It’s fun as a developer when you get to integrate already existing powerful AP
 
 I am serving this app over Django, which I have recently started using and it’s super awesome when you want to prototype and build things faster without worrying about minor details, convention over configuration FTW.
 
+
+***
+
 [**Unix Workbench Assignment(John Hopkins University)**](https://sudipbhandari126.github.io/guessingnumber/)
 This coursera course focused on unix, git, make and other unix fundamentals. This project just demonstrates a simple program whose README is created using `makefile` and github project page is published.
 
 
+
+***
+
 [**graphql demo in java**](https://sudipbhandari126.github.io/graphql-java/)
 
 
+***
+
 [**My Linux Setup**](https://sudipbhandari126.github.io/MyLinuxSetUp/)
 
+
+***
 
 [**Intellij Settings and productivity**](https://sudipbhandari126.github.io/IntelliJSettings/)
 
 
 
+***
 
 **ROI Helper (A plugin to [Icy](http://icy.bioimageanalysis.org), a bio-image-analysis tool)**
 
