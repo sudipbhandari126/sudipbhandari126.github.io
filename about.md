@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a software engineer currently working at [Cleartrip Bangalore](https://www.cleartrip.com/). Besides programming I love music and play guitar/harmonica. I even offer [guitar lessons](http://urbanclap.com/pro/sudip-bhandari) in select few locations in Bangalore.
+I am a software engineer currently working at [Simpl Bangalore](https://getsimpl.com/). Besides programming I love music and play guitar/harmonica. I even offer [guitar lessons](http://urbanclap.com/pro/sudip-bhandari) in select few locations in Bangalore.
 
 
 [My Latest Resume](https://sudipbhandari126.github.io/sudip_resume_github_page/sudip_bhandari_resume.pdf)
