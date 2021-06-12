@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Successfully Executing Day2Day Software Engineering Tasks
+title: How I work
 tags: [engineering,programming,coding,company]
 ---
 
